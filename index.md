@@ -12,7 +12,9 @@ has been the most prominent direction of tomographic research, commercial develo
 and FDA evaluation. Recently, it has become widely recognized that deep neural networks often have
 generalizability issues and are vulnerable to adversarial attacks, deliberate or unintentional. This critical
 challenge must be addressed to optimize the performance of deep neural networks in medical applications.
+</div>
 
+<div style="text-align: justify">
 In January this year, FDA published an action plan for furthering the oversight for AI/DL-based software as
 medical devices (SaMDs). One major action underlined in the plan is “regulatory science methods related to
 algorithm bias and robustness”. The significance of ensuring the safety and effectiveness of AI/DL-based
@@ -27,7 +29,9 @@ predict the clinical performance of AI-based imaging products. In contrast to ot
 Adversarially Based CT (ABC) platform relies on adversarial learning to ensure diversity and realism of the
 simulated data and images and improve the generalizability of deep networks, and utilizes adversarial samples
 to probe the ABC workflow to address the robustness of deep networks.
+</div>
 
+<div style="text-align: justify">
 The overarching hypothesis is that adversarial learning and attacking methods are powerful to deliver highquality
 datasets for AI-based imaging research and performance evaluation. The specific aims are: (1) diverse
 patient modeling (SBU), (2) virtual CT scanning (UTSW), (3) deep CT imaging (RPI), (4) virtual workflow
