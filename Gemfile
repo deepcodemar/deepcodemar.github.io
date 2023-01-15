@@ -10,6 +10,6 @@ group :jekyll_plugins do
     gem "jekyll-seo-tag"
     gem 'jekyll-redirect-from'
     gem 'jekyll-scholar'
-    gem "bulma-clean-theme"
+    # gem "bulma-clean-theme"
 end
 
