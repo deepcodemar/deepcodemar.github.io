@@ -2,6 +2,7 @@
 title: Adversarially Based Virtual CT Workflow for Evaluation of AI Imaging
 subtitle: The goal is to develop an FDA workflow evaluating, approving, and monitoring AI imaging software
 layout: page
+callouts: example_callouts
 show_sidebar: false
 ---
 
@@ -45,9 +46,10 @@ Regulatory Science Tools, and uniquely well positioned to greatly facilitate the
 translation of emerging AI-based imaging products.
 </div>
 
-|![MeTAI ecosystem with four major healthcare applications.](./img/20230114193241.png)|
-|:--| 
-|MeTAI ecosystem with four major healthcare applications. a, Virtual comparative scanning (to find the best imaging technology in a specific situation). b, Raw data sharing (to allow controlled open access to tomographic raw data). c, Augmented regulatory science (to extend virtual clinical trials in terms of scope and duration). d, ‘Metaversed’ medical intervention (to perform medical intervention aided by metaverse). In an exemplary implementation of the MeTAI ecosystem, before a patient undergoes a real CT scan, his/her scans are first simulated on various virtual machines to find the best imaging result (a). On the basis of this knowledge, a real scan is performed. Then, the metaverse images are transferred to the patient’s medical care team, and upon the patient’s agreement and under secure computation protocols, the images and tomographic raw data can be made available to researchers (b). All these real and simulated images and data as well as other medically relevant information can be integrated in the metaverse and utilized in augmented clinical trials (c). Finally, if it is clinically indicated, the patient will undergo a remote robotic surgery aided by the metaverse and followed up in the metaverse for rehabilitation (d). Each of the four applications is further described in the main text.|
+![MeTAI ecosystem with four major healthcare applications.](./img/20230114193241.png#pic_center)
+<div style="text-align: justify">
+The above figure is the <b>MeTAI ecosystem with four major healthcare applications</b>. a, Virtual comparative scanning (to find the best imaging technology in a specific situation). b, Raw data sharing (to allow controlled open access to tomographic raw data). c, Augmented regulatory science (to extend virtual clinical trials in terms of scope and duration). d, ‘Metaversed’ medical intervention (to perform medical intervention aided by metaverse). In an exemplary implementation of the MeTAI ecosystem, before a patient undergoes a real CT scan, his/her scans are first simulated on various virtual machines to find the best imaging result (a). On the basis of this knowledge, a real scan is performed. Then, the metaverse images are transferred to the patient’s medical care team, and upon the patient’s agreement and under secure computation protocols, the images and tomographic raw data can be made available to researchers (b). All these real and simulated images and data as well as other medically relevant information can be integrated in the metaverse and utilized in augmented clinical trials (c). Finally, if it is clinically indicated, the patient will undergo a remote robotic surgery aided by the metaverse and followed up in the metaverse for rehabilitation (d). Each of the four applications is further described in the main text.
+</div>
 
 ## Timeline
 <table border="1">
