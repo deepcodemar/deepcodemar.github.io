@@ -2,7 +2,7 @@
 lang: en
 title: Adverarially Based CT
 tagline: Adverarially Based CT
-email: ctaiworkflow@domain.com
+email: ctaiworkflow@gmail.com
 description: >
   Adversarially Based Virtual CT Workflow for Evaluation of AI Imaging
 baseurl: 
@@ -23,7 +23,7 @@ disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   # shortname: my_disqus_shortname
-  shortname: csrhymes
+  shortname: ctaiworkflow
 
 
 plugins:
