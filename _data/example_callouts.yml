@@ -7,8 +7,24 @@ items:
     icon_brand: true
     description: >
       The software of this project
-    call_to_action_name: Go to software
+    call_to_action_name: Go to Software
     call_to_action_link: https://github.com/WANG-AXIS
+  - title: Data
+    # subtitle: Example subtitle 1
+    icon: fa-copy
+    # icon_brand: true
+    description: >
+      The data of this project
+    call_to_action_name: Go to Data
+    call_to_action_link: https://github.com/WANG-AXIS
+  - title: Lab
+    # subtitle: Example subtitle 1
+    icon: fa-space-shuttle
+    # icon_brand: true
+    description: >
+      The introduction of lab
+    call_to_action_name: Go to Lab
+    call_to_action_link: https://wang-axis.github.io/
   # - title: Example callout 2
   #   subtitle: Example subtitle 2
   #   icon: fa-wrench
