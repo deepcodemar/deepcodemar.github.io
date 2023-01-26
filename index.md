@@ -8,48 +8,19 @@ show_sidebar: true
 
 ## Abstract
 <div style="text-align: justify">
-Over the past several years, artificial intelligence (AI) and machine learning (ML), especially deep learning (DL),
-has been the most prominent direction of tomographic research, commercial development, clinical translation,
-and FDA evaluation. Recently, it has become widely recognized that deep neural networks often have
-generalizability issues and are vulnerable to adversarial attacks, deliberate or unintentional. This critical
-challenge must be addressed to optimize the performance of deep neural networks in medical applications.
+The World Health Organization reported that cancer is the second leading cause of death globally and is responsible for 9.6 million deaths in 2018. Approximately 50% of all cancer patients receive radiation therapy (RT). Many of them have metal implants, which induce image artifacts in the treatment planning CT images and compromise or preclude treatment in an estimated 15% of all radiation therapy patients. Despite extensive CT metal artifact reduction (MAR) research it remains one of the long-standing challenges in the CT field, without a clinically satisfactory solution.
 </div>
 
 <div style="text-align: justify">
-In January this year, FDA published an action plan for furthering the oversight for AI/DL-based software as
-medical devices (SaMDs). One major action underlined in the plan is “regulatory science methods related to
-algorithm bias and robustness”. The significance of ensuring the safety and effectiveness of AI/DL-based
-SaMDs cannot be overestimated since AI is expected to play a critical role in the future of medicine. In this
-context, the overall goal of this academic-FDA partnership R01 project is to generate diverse training and
-challenging testing datasets of low-dose CT (LDCT) scans, prototype a virtual CT workflow, and establish an
-evaluation methodology for AI-based imaging products to support FDA marketing authorization. The technical
-innovation lies in cutting-edge DL methods empowered by (a) adversarial learning to generate anatomically
-and pathologically representative features in the human chest; (b) adversarial attacking to probe the virtual CT
-workflow in individual steps and its entirety; and (c) systematic evaluation methods to better characterize and
-predict the clinical performance of AI-based imaging products. In contrast to other CT simulation pipelines, our
-Adversarially Based CT (ABC) platform relies on adversarial learning to ensure diversity and realism of the
-simulated data and images and improve the generalizability of deep networks, and utilizes adversarial samples
-to probe the ABC workflow to address the robustness of deep networks.
+The overall goal of this project is to develop cutting-edge deep learning imaging methods and software solutions for commercial CT scanners to eliminate CT metal artifacts in general and improve RT in particular. We propose a three-pronged approach to systematically tackle this challenge in three specific aims: (1) adversarial learning techniques for estimation of sinogram missing data and metal traces; (2) constrained disentanglement (CODE) networks to remove CT image artifacts during image reconstruction, through post-processing, and in both data and image domains; and (3) systematic evaluation of our proposed CT MAR techniques and clinical translation into robust RT planning methods to maximize the RT treatment planning accuracy and thus improve patient outcomes. Our synergistic track records in CT MAR research, especially with deep imaging methods over the past three years, promises an unprecedented opportunity for a brand-new solution to CT MAR. For the first time we will integrate contemporary AI innovations in data preprocessing, image reconstruction, post-processing, observer studies and treatment planning synergistically in a unified data-driven framework, positioning this project uniquely to eliminate metal artifacts and their complications in radiation therapy.
 </div>
 
-<div style="text-align: justify">
-The overarching hypothesis is that adversarial learning and attacking methods are powerful to deliver highquality
-datasets for AI-based imaging research and performance evaluation. The specific aims are: (1) diverse
-patient modeling (SBU), (2) virtual CT scanning (UTSW), (3) deep CT imaging (RPI), (4) virtual workflow
-validation (FDA), and (5) ABC system dissemination (RPI-SBU-UTSW-FDA). In this project, generative
-adversarial learning will play an instrumental role in generating features of clinical semantics. Also, adversarial
-samples will be produced in both sinogram and image domains. In these complementary ways, AI-based
-imaging products can be efficiently evaluated for not only accuracy but also generalizability and robustness.
-Upon completion, our ABC workflow/platform will be made publicly available and readily extendable to other
-imaging modalities and other diseases. This ABC system will be shared through the FDA’s Catalog of
-Regulatory Science Tools, and uniquely well positioned to greatly facilitate the development, assessment and
-translation of emerging AI-based imaging products.
-</div>
-
+<!--
 ![MeTAI ecosystem with four major healthcare applications.](./img/20230114193241.png#pic_center)
 <div style="text-align: justify">
 The above figure is the <b>MeTAI ecosystem with four major healthcare applications</b>. a, Virtual comparative scanning (to find the best imaging technology in a specific situation). b, Raw data sharing (to allow controlled open access to tomographic raw data). c, Augmented regulatory science (to extend virtual clinical trials in terms of scope and duration). d, ‘Metaversed’ medical intervention (to perform medical intervention aided by metaverse). In an exemplary implementation of the MeTAI ecosystem, before a patient undergoes a real CT scan, his/her scans are first simulated on various virtual machines to find the best imaging result (a). On the basis of this knowledge, a real scan is performed. Then, the metaverse images are transferred to the patient’s medical care team, and upon the patient’s agreement and under secure computation protocols, the images and tomographic raw data can be made available to researchers (b). All these real and simulated images and data as well as other medically relevant information can be integrated in the metaverse and utilized in augmented clinical trials (c). Finally, if it is clinically indicated, the patient will undergo a remote robotic surgery aided by the metaverse and followed up in the metaverse for rehabilitation (d). Each of the four applications is further described in the main text.
 </div>
+--!>
 
 ## Timeline
 ![Timeline.](./img/20230114213827.png#pic_center)
