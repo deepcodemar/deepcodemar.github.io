@@ -1,6 +1,6 @@
 ---
-title: Adversarially Based Virtual CT Workflow for Evaluation of AI Imaging
-subtitle: The goal is to develop an FDA workflow evaluating, approving, and monitoring AI imaging software
+title: Deep Learning Solutions for CT Metal Artifact Reduction
+subtitle: The goal is to develop cutting-edge deep learning imaging methods and software solutions for commercial CT scanners to eliminate CT metal artifacts in general and improve RT in particular
 layout: page
 callouts: example_callouts
 show_sidebar: true
