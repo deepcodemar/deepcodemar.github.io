@@ -1,10 +1,10 @@
 # Site Settings
 lang: en
-title: Adverarially Based CT
-tagline: Adverarially Based CT
-email: ctaiworkflow@gmail.com
+title: Deep MAR
+tagline: Deep MAR
+email: deepcodemar@gmail.com
 description: >
-  Adversarially Based Virtual CT Workflow for Evaluation of AI Imaging
+  Constrained Disentanglement (CODE) Networks for CT Metal Artifact Reduction
 baseurl: 
 url: https://deepcodemar.github.io
 permalink: pretty
@@ -23,7 +23,7 @@ disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   # shortname: my_disqus_shortname
-  shortname: ctaiworkflow
+  shortname: deepcodemar
 
 
 plugins:
